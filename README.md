@@ -9,5 +9,10 @@ Multinomial-Naive Bayes is commonly used in NLP prediction and classification of
 ## The Project
 The ML algorithm itself is to classifiy whether the opinion or sentiment of a specific comment is **POSITIVE or NEGATIVE**, with the use of the given dataset. The algorithm purely used python, multi-nomial naive bayes and other libraries such as numpy, scikit, etc.
 
+###
+Having user interface and 94% accuracy is the next plan of action
+
 ### Reference
 [1](https://www.upgrad.com/blog/multinomial-naive-bayes-explained)
+
+
