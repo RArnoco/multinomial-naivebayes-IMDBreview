@@ -9,7 +9,7 @@ Multinomial-Naive Bayes is commonly used in NLP prediction and classification of
 #### Originally, the dataset is created for Linear Support Vector Classifier, but I implement Multi Nomial Naive Bayes to see a different result.
 
 ## The Project
-The ML algorithm itself is to classifiy whether the opinion or sentiment of a specific comment is **POSITIVE or NEGATIVE**, with the use of the given dataset. The algorithm purely used python, multi-nomial naive bayes and other libraries such as numpy, scikit, etc.
+The ML algorithm itself is to classifiy whether the opinion or sentiment of a specific comment is **POSITIVE or NEGATIVE**, with the use of the given dataset. The algorithm purely used python, multi-nomial naive bayes and other libraries such as numpy, sklearn, pandas, etc.
 
 ### Reference
 [1](https://www.upgrad.com/blog/multinomial-naive-bayes-explained)
