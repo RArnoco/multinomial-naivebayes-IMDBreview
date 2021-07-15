@@ -11,6 +11,21 @@ Multinomial-Naive Bayes is commonly used in NLP prediction and classification of
 ## The Project
 The ML algorithm itself is to classifiy whether the opinion or sentiment of a specific comment is **POSITIVE or NEGATIVE**, with the use of the given dataset. The algorithm purely used python, multi-nomial naive bayes and other libraries such as numpy, sklearn, pandas, etc.
 
+## Usage:
+pip install jupyter notebook
+-clone the code
+-input the movie review sentences in driver code
+
+You can use any dataset by using pandas before using the driver code below
+
+#read dataset
+df=pd.read_csv("datasets/IMDB Dataset.csv" ,  names=['review','sentiment'])
+
+#output
+movie_reviews_array=np.array(["So bad, it is so bad movie"])
+movie_review_vector = vectorizer.transform(movie_reviews_array)
+print (clf.predict(movie_review_vector))
+
 ### Reference
 [1](https://www.upgrad.com/blog/multinomial-naive-bayes-explained)
 
