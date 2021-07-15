@@ -27,6 +27,8 @@ movie_review_vector = vectorizer.transform(movie_reviews_array) <br />
 print (clf.predict(movie_review_vector))<br />
 
 ### Reference
-[1](https://www.upgrad.com/blog/multinomial-naive-bayes-explained)
+[1](https://www.upgrad.com/blog/multinomial-naive-bayes-explained) <br />
+
+If you want to upgrade, revise or you have questioons, just drop a message and I am happy to assist you.
 
 
